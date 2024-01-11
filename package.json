@@ -1,0 +1,34 @@
+{
+    "name": "typescriptt",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon main.ts",
+        "format": "prettier --write",
+        "lint-fix": "eslint --ignore-path .eslintignore . --fix",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "dotenv": "^16.3.1",
+        "express": "^4.18.2",
+        "morgan": "^1.10.0",
+        "prisma": "^5.8.0"
+    },
+    "devDependencies": {
+        "@prisma/client": "^5.8.0",
+        "@types/express": "^4.17.21",
+        "@types/morgan": "^1.9.9",
+        "@typescript-eslint/eslint-plugin": "^6.18.1",
+        "@typescript-eslint/parser": "^6.18.1",
+        "eslint": "^8.56.0",
+        "eslint-config-prettier": "^9.1.0",
+        "express-validator": "^7.0.1",
+        "nodemon": "^3.0.2",
+        "prettier": "^3.1.1",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.3.3"
+    }
+}
